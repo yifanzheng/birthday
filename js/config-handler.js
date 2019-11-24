@@ -1,17 +1,20 @@
-$(function() {
+$(function () {
   const title = configData.title;
   if (title) {
+
     let titleElement = null;
     title.forEach((e, index) => {
-      titleElement = $('#b' + (index + 1));
-      titleElement.html(e);
+      let spanElement = document.createElement('span');
+      spanElement.innerHTML = e;
+      $('#b' + (index + 1)).append(e);
+
     });
   }
 
 });
 
 /** 加载生日祝福的内容 */
-$(function() {
+$(function () {
   let spanElement = document.createElement('span');
   const contents = configData.contents;
   let pElement = null;
@@ -28,7 +31,7 @@ $(function() {
 
 
 /** 设置按钮文字 */
-$(function() {
+$(function () {
   const btns = configData.btn_text;
   if (btns) {
     const btnKeys = Object.keys(btns);

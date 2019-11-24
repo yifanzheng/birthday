@@ -1,10 +1,9 @@
-$(window).load(function(){
+$(window).load(function () {
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
-
 $('document').ready(function () {
-  var vw;
+	var vw;
 	$(window).resize(function () {
 		vw = $(window).width() / 2;
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
