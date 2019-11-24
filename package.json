@@ -1,24 +1,24 @@
 {
   "name": "birthday",
   "version": "1.0.0",
-  "description": "Birthday greetings..",
+  "description": "Birthday greetings.",
   "main": " ",
   "scripts": {
-    "server-node": "http-server -p 8081"
+    "server-node": "http-server -p 8080"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayusharma/birthday.git"
+    "url": "git+https://github.com/yifanzheng/birthday.git"
   },
   "keywords": [
     "Birthday"
   ],
-  "author": "Ayush Sharma",
-  "license": "WTFPL",
+  "author": "yifanzheng",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayusharma/birthday/issues"
+    "url": "https://github.com/yifanzheng/birthday/issues"
   },
-  "homepage": "https://github.com/ayusharma/birthday#readme",
+  "homepage": "https://github.com/yifanzheng/birthday#readme",
   "dependencies": {
     "http-server": "^0.11.1"
   }
